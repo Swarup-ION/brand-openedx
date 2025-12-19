@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
 @import "./base-theme.css";
 
-$primary: var(--ion-cont-color-action-primary-base);
-$brand: var(--ion-cont-color-action-primary-base);
-$secondary: var(--ion-cont-color-action-secondary-moderate);
+$primary: #0073d0;
+$brand: #0073d0;
+$secondary: #535c6b;
 $light-dark: #374151;
-$text-color: var(--ion-cont-color-text-icon-base-bold);
-$text-color-primary: var(--ion-cont-color-text-icon-base-moderate);
+$text-color: #030c1e;
+$text-color-primary: #1f2a3e;
 $gray-700: #4b5563;
-$text-color-light: var(--ion-cont-color-text-icon-base-subtle);
+$text-color-light: #535c6b;
 $light-theme-switch-bg-color: #1d386a;
 
-$success: var(--ion-cont-color-ui-status-positive) !default;
-$info: var(--ion-cont-color-ui-status-info) !default;
-$warning: var(--ion-cont-color-ui-status-warning) !default;
-$danger: var(--ion-cont-color-ui-status-negative) !default;
+// $success: var(--ion-cont-color-ui-status-positive) !default;
+// $info: var(--ion-cont-color-ui-status-info) !default;
+// $warning: var(--ion-cont-color-ui-status-warning) !default;
+// $danger: var(--ion-cont-color-ui-status-negative) !default;
 
 // for toggle theme button
 $page-color-transition:

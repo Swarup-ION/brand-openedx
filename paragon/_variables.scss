@@ -1,16 +1,22 @@
-$primary: #15376d;
-$brand: #15376d;
-$primary-light: #f2f7f8;
+$primary: var(--ion-cont-color-action-primary-base);
+$brand: var(--ion-cont-color-action-primary-base);
+$secondary: var(--ion-cont-color-action-secondary-moderate);
 $light-dark: #374151;
-$text-color: #111827;
-$text-color-primary: #515661;
+$text-color: var(--ion-cont-color-text-icon-base-bold);
+$text-color-primary: var(--ion-cont-color-text-icon-base-moderate);
 $gray-700: #4b5563;
-$text-color-light: #515661;
+$text-color-light: var(--ion-cont-color-text-icon-base-subtle);
 $light-theme-switch-bg-color: #1d386a;
+
+$success: var(--ion-cont-color-ui-status-positive) !default;
+$info: var(--ion-cont-color-ui-status-info) !default;
+$warning: var(--ion-cont-color-ui-status-warning) !default;
+$danger: var(--ion-cont-color-ui-status-negative) !default;
 
 // for toggle theme button
 $page-color-transition:
   transparent 0.2s ease,
   color 0.2s ease;
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+@import "./base-theme.css";

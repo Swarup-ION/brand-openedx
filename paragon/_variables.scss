@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+@import "./base-theme.css";
+
 $primary: var(--ion-cont-color-action-primary-base);
 $brand: var(--ion-cont-color-action-primary-base);
 $secondary: var(--ion-cont-color-action-secondary-moderate);
@@ -17,6 +20,3 @@ $danger: var(--ion-cont-color-ui-status-negative) !default;
 $page-color-transition:
   transparent 0.2s ease,
   color 0.2s ease;
-
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
-@import "./base-theme.css";

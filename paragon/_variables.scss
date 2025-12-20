@@ -1,23 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
-// @import "./base-theme.css";
-
-$primary: #0073d0;
-$brand: #0073d0;
+$primary: #00a5e6;
+$brand: #00a5e6;
 $secondary: #535c6b;
 $light-dark: #374151;
 $text-color: #030c1e;
 $text-color-primary: #1f2a3e;
 $gray-700: #4b5563;
 $text-color-light: #535c6b;
-$light-theme-switch-bg-color: #1d386a;
+$light-theme-switch-bg-color: #00a5e6;
 $primary-light: #e2eaff;
 
-// $success: var(--ion-cont-color-ui-status-positive) !default;
-// $info: var(--ion-cont-color-ui-status-info) !default;
-// $warning: var(--ion-cont-color-ui-status-warning) !default;
-// $danger: var(--ion-cont-color-ui-status-negative) !default;
+
+$success: #1e8246;  
+$info:    #0073d0;      
+$warning:  #fa8a02; 
+$danger:  #e60000; 
 
 // for toggle theme button
 $page-color-transition:
   transparent 0.2s ease,
   color 0.2s ease;
+
+$font-family-sans-serif: "Source Sans Pro", Arial, Helvetica, sans-serif !default;
+
+$font-family-serif: serif !default;
+
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+  "Courier New", monospace !default;
+
+$font-family-base: $font-family-sans-serif !default;
+
+$border-radius:               calc(0.5rem - 2px) !default;
+$border-radius-lg:            0.5rem !default;
+$border-radius-sm:            calc(0.5rem - 4px) !default;
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+@import "./base-theme.css";

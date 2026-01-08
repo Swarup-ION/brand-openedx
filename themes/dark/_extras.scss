@@ -54,7 +54,7 @@ div[data-testid=instructor-toolbar] {
     }
 }
 .alert-info {
-    background: $primary-light;
+    background: #E9EAEB;
     .alert-icon {
         svg {
             path {
@@ -634,8 +634,8 @@ footer.tutor-container .copyright-site {
                 color: $text-color !important;
             }
             &.btn-primary {
-                background: $primary !important;
-                border-color: $primary !important;
+                background: #0073D0 !important;
+                border-color: #0073D0 !important;
                 color: $btn-color !important;
             }
         }

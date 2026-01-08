@@ -71,8 +71,7 @@
             z-index: 1;
             display: block;
             @include media-breakpoint-up(sm) {
-                padding: 50px;
-                border-radius: 50px 0px;
+                padding: 50px; 
             }
             @media screen and (max-width: 1200px) {
                 margin: 0 auto;

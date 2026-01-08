@@ -20,7 +20,7 @@ $page-color-transition:
   transparent 0.2s ease,
   color 0.2s ease;
 
-$font-family-sans-serif: "Source Sans Pro", Arial, Helvetica, sans-serif !default;
+$font-family-sans-serif: "Inter", Arial, Helvetica, sans-serif !default;
 
 $font-family-serif: serif !default;
 
@@ -31,8 +31,7 @@ $font-family-base: $font-family-sans-serif !default;
 
 $border-radius:               calc(0.5rem - 2px) !default;
 $border-radius-lg:            0.5rem !default;
-$border-radius-sm:            calc(0.5rem - 4px) !default;
+$border-radius-sm:            calc(0.5rem - 4px) !default; 
 
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
